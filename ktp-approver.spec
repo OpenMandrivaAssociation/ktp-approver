@@ -1,6 +1,6 @@
 Summary:	Internals for the KDE Telepathy IM suite
 Name:		ktp-approver
-Version:	16.12.2
+Version:	17.04.0
 Release:	1
 Epoch:		1
 License:	GPLv2+
@@ -38,7 +38,7 @@ BuildRequires:	pkgconfig(shared-mime-info)
 %description
 Internals for the KDE Telepathy IM suite
 
-%files
+%files -f kded_ktp_approver.lang
 %{_sysconfdir}/xdg/ktp_approverrc
 %{_libdir}/qt5/plugins/kded_ktp_approver.so
 %{_datadir}/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.Approver.service
@@ -54,3 +54,4 @@ Internals for the KDE Telepathy IM suite
 
 %install
 %ninja_install -C build
+%find_lang kded_ktp_approver
