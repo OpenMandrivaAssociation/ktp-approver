@@ -1,6 +1,6 @@
 Summary:	Internals for the KDE Telepathy IM suite
 Name:		ktp-approver
-Version:	19.08.3
+Version:	19.11.80
 Release:	1
 Epoch:		1
 License:	GPLv2+
