@@ -1,6 +1,6 @@
 Summary:	Internals for the KDE Telepathy IM suite
 Name:		ktp-approver
-Version:	22.12.1
+Version:	22.12.2
 Release:	1
 Epoch:		1
 License:	GPLv2+
